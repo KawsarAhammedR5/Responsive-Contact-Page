@@ -100,6 +100,9 @@ button{
     border-radius: .5em;
 }
 @media screen and (max-width:576px) {
+    body {
+        height: 100%;
+    }
     form .header-text{
         padding: 2em .5em;
     }
@@ -112,5 +115,10 @@ button{
     .input-type{
         margin-right: 0.4em;
         width: 100%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    body {
+        height: 100%;
     }
 }

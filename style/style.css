@@ -52,7 +52,10 @@ form{
     /* border: 1px solid white; */
     border-radius: .5em;
     padding: 1.5em;
-    background: url(..//resources/background@2x.png);
+    background: url(..//resources/background@3x.png) no-repeat;
+    background-size: cover;
+    box-shadow:#FFFFFF;
+    filter: grayscale(30%);
 }
 form .header-text{
     padding: 2em 4em;
